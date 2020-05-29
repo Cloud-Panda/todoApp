@@ -39,5 +39,17 @@
    var value = $(this).text();
    update_data(id, column_name, value);
   });
-
   
+  /*Add function*/
+  $('#add').click(function(){
+   var html = '<tr>';
+   html += '<td contenteditable id="data1"></td>';
+   html += '<td contenteditable id="data2"></td>';
+   html += '<td><button type="button" name="insert" id="insert" class="btn btn-success btn-xs">Insert</button></td>';
+   html += '</tr>';
+   $('#user_data tbody').prepend(html);
+  });
+  
+  
+ 
+ 
