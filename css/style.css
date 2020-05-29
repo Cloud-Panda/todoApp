@@ -104,4 +104,48 @@ html{
     margin:0;
   }
 
+  form, .content {
+    width: 70%;
+    margin: 0px auto;
+    padding: 20px;
+    background: transparent;
+  }
+  .input-group {
+    margin: 10px 0px 10px 0px;
+  }
+  .input-group input {
+    height: 30px;
+    width: 80%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border:1px solid rgb(167, 166, 166);
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    background:rgb(199, 211, 201);
+    margin-left:50px;
+    padding-top:20px;
+    font-family: 'PT Serif', serif;
+  }
+  .btn {
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(31, 29, 29);
+    background:rgb(222,226,225);
+    border-radius: 7px;
+    border:none;
+    width:150px;
+    margin-left:200px;
+    margin-top:20px;
+    outline: none;
+    font-family: 'PT Serif', serif;
+  }
+
+  a{
+    text-decoration: none;
+    color:rgb(169,158,137);
+  }
+
+ 
+
   
