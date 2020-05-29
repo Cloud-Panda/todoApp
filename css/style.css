@@ -146,6 +146,42 @@ html{
     color:rgb(169,158,137);
   }
 
- 
+  #member{
+    color:rgb(100, 99, 99);
+    margin-left:50px;
+    font-family: 'PT Serif', serif;
+  }
+  .error {
+    width: 70%; 
+    margin: 0px auto; 
+    padding: 0px;  
+    color: #cc3333; 
+    text-align: center;
+  }
+  .success {
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+
+  .content{
+    width:100%;
+    height:10vh;
+    background:rgb(190,198,201)!important; 
+  }
+
+  #welcome-user{
+    float:left;
+    font-size:20px;
+    font-family: 'PT Serif', serif;
+  }
+
+  #exsit{
+    float:right;
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+  }
 
   
