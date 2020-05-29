@@ -11,4 +11,25 @@ html{
     font-family: 'PT Serif', serif;
   }
 
+  .container{
+    float:right;
+    width:55%;
+    height:100vh;
+    background:rgb(199, 211, 201);
+    margin-top:0;
+    padding-top:0;
+  }
+  .wrap{
+    float:left;
+   background:rgb(38, 61, 38);
+   background-size: cover;
+    width:45%;
+    height:100vh;
+    float:left;
+    display:flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+  }
+
   
