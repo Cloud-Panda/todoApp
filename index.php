@@ -17,6 +17,14 @@
       	</h3>
       </div>
   	<?php endif ?>
+
+	  <!-- logged in user information -->
+	  <?php  if (isset($_SESSION['username'])) : ?>
+    	<p id="welcome-user">Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
+		<p id="exsit"> <a href="index.php?logout='1'" style="color: red;">Logout</a> </p>
+		<br><br>
+    <?php endif ?>
+</div>
 </body>
 </html>
 
