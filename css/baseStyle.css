@@ -1,0 +1,13 @@
+body{
+    max-width:100%;
+    background:rgb(199, 211, 201);
+    background-size: cover;
+    font-family: 'PT Serif', serif;
+}
+#title{
+    text-align: center;
+    color:rgb(31, 29, 29);
+    font-family: 'Cinzel', serif;
+    margin-bottom:0;
+}
+
