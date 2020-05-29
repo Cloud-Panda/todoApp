@@ -25,5 +25,29 @@
 		</div>
 	</div>
 </div>
+
+<div class="container">
+	  <h2 id="signin">Sign In</h2>
+	  <p id="account">To your account</p>
+  
+	 
+  <form method="post" action="login.php">
+  	<?php include('inc/errors.php'); ?>
+  	<div class="input-group">
+  		<!--<label>Username</label>-->
+  		<input type="text" name="username" placeholder="Username..." >
+  	</div>
+  	<div class="input-group">
+  		<!--<label>Password</label>-->
+  		<input type="password" name="password" placeholder="Password...">
+  	</div>
+  	<div class="input-group">
+  		<button type="submit" class="btn" name="login_user">Login</button>
+  	</div>
+  	<p id="member">
+  		Not yet a member? <a href="register.php">Sign up</a>
+  	</p>
+  </form>
+  </div>
 </body>
 </html>
