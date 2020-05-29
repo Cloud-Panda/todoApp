@@ -36,3 +36,10 @@ if($_POST["length"] != -1)
  $query1 = ' LIMIT ' . $_POST['start'] . ', ' . $_POST['length'];
 }
 
+/*Items put into table*/
+$number_filter_row = mysqli_num_rows(mysqli_query($connect, $query));
+
+$result = mysqli_query($connect, $query . $query1);
+
+$data = array();
+
