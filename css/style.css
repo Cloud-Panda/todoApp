@@ -1,0 +1,14 @@
+html{
+  margin:0;
+  padding:0;
+}
+ body {
+    font-size: 120%;
+    background: rgb(34, 33, 33);
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    font-family: 'PT Serif', serif;
+  }
+
+  
