@@ -11,3 +11,71 @@ body{
     margin-bottom:0;
 }
 
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover,
+ .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: rgb(161,187,203);
+    border-color: rgb(161,187,203);
+}
+
+.pagination>li:first-child>a, .pagination>li:first-child>span{
+    background:rgb(222,226,225);
+    border:none;
+}
+.pagination>li:last-child>a, .pagination>li:last-child>span{
+    background:rgb(222,226,225);
+    border:none;
+}
+.add-btn{
+    margin-left:44%;
+    border-radius: 7px;
+    background:rgb(222,226,225);
+    color:rgb(31, 29, 29);
+    border:none;
+    outline: none;
+    margin-bottom:20px;
+}
+
+.add-btn:hover{
+    background:rgb(243, 241, 241);
+    border:none;
+    outline:none;
+    color:rgb(19, 18, 18);
+    transition:0.7s;
+}
+
+#insert{
+    background:rgb(222,226,225);
+    border:none;
+    margin-right:auto;
+    margin-left:auto;
+    color:rgb(31, 29, 29);
+    border-radius: 7px;
+    padding:4px;
+    font-size: 10px;
+    margin-top:auto;
+    margin-bottom:auto;
+    width:70%;
+}
+
+#insert:hover{
+    background:rgb(116, 173, 116);
+}
+
+.delete-btn{
+    background:rgb(222,226,225);
+    border:none;
+    margin-right:auto;
+    margin-left:auto;
+    color:rgb(31, 29, 29);
+    border-radius: 7px;
+    padding:4px;
+    font-size: 10px;
+    margin-top:auto;
+    margin-bottom:auto;
+    width:50%;
+}
+
+
