@@ -51,5 +51,31 @@
   });
   
   
- 
- 
+ /*insert fucntion*/
+ $(document).on('click', '#insert', function(){
+    var title = $('#data1').text();
+    var description = $('#data2').text();
+    if(title != '' && description != '')
+    {
+     $.ajax({
+      url:"insert.php",
+      method:"POST",
+      data:{title:title, description:description},
+      success:function(data)
+      {
+       $('#alert_message').html('<div class="alert alert-success">'+data+'</div>');
+       $('#user_data').DataTable().destroy();
+       fetch_data();
+      }
+     });
+     setInterval(function(){
+      $('#alert_message').html('');
+     }, 5000);
+    }
+    else
+    {
+     alert("Both Fields is required");
+    }
+   });
+   
+   
