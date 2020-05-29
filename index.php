@@ -37,6 +37,7 @@
 		<br><br>
     <?php endif ?>
 </div>
+<?php include("base.php");?>
 </body>
 </html>
 
