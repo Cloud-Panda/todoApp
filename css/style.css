@@ -172,7 +172,7 @@ html{
     background:rgb(190,198,201)!important; 
   }
 
-  #welcome-user{
+  #welcome-user p{
     float:left;
     font-size:20px;
     font-family: 'PT Serif', serif;
