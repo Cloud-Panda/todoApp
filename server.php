@@ -44,5 +44,27 @@ if (isset($_POST['reg_user'])) {
     }
   }
 
+  // Finally, register user if there are no errors in the form
+  if (count($errors) == 0) {
+  	$password = md5($password_1);//encrypt the password before saving in the database
+
+  	$query = "INSERT INTO users (username, email, password) 
+  			  VALUES('$username', '$email', '$password')";
+  	mysqli_query($db, $query);
+    $_SESSION['username'] = $username;
+    $_SESSION['success'] = "You are now logged in";
+
+    $user_query = "SELECT * FROM users WHERE username='$username'";
+    $user_result = mysqli_query($db, $user_query);
+    $user_data = mysqli_fetch_assoc($user_result);
+
+    if ($user_data) {
+      $_SESSION['user_id'] = $user_data['id'];
+    }
+  	header('location: index.php');
+  }
+}
+
+
   
   ?>
