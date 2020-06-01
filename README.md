@@ -11,6 +11,7 @@ Xampp
 Wamp
 Mamp
 ```
+and adding a database 
 ### Installing
 Please follow the install instruction for Wamp/Mamp/Xampp from the providers as well as the local host setup.
 ## Deployment
