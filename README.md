@@ -23,6 +23,10 @@ Select the todo App and the app will automatically start in the browser window.
 * PHP
 * Ajax
 * MYSQL
+### Database 
+All instructions for creating the database is found in the db folder.
+
+![](C:\Users\Home Laptop\Pictures\Screenshots\Screenshot (124)_LI.jpg"")
 ## Versioning
 * PHP 7.3.12
 ## Authors
