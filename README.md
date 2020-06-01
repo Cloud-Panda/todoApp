@@ -25,8 +25,6 @@ Select the todo App and the app will automatically start in the browser window.
 * MYSQL
 ### Database 
 All instructions for creating the database is found in the db folder.
-
-![](images/stuff.jpg)
 ## Versioning
 * PHP 7.3.12
 ## Authors
