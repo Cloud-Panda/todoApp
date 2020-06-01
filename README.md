@@ -22,6 +22,7 @@ Select the todo App and the app will automatically start in the browser window.
 * CSS
 * PHP
 * Ajax
+* MYSQL
 ## Versioning
 * PHP 7.3.12
 ## Authors
