@@ -1,5 +1,5 @@
 # todoApp
-
+We all have tasks, but when you are overwhelmed, trust the todoApp to do what you need to get done. 
 ## Getting Started
 #### Download the project files from github onto your local machine.
 Click the green clone or download button on the right.
