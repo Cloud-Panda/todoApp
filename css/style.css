@@ -184,7 +184,7 @@ html{
     font-family: 'PT Serif', serif;
   }
 
-  /*MEDIA QUERIES START HERE*/
+  /*****************************************MEDIA QUERIES START HERE*****************************************/
   @media screen and (max-width:1040px){
     p{
       font-size: 17px;
@@ -200,6 +200,9 @@ html{
     }
     .container{
       width:100%;
+    }
+    #signin{
+      font-size:36px;
     }
   }
 
