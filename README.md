@@ -31,3 +31,4 @@ All instructions for creating the database is found in the db folder.
 * **Abigail Liguma**
 ## License
 TBC
+

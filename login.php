@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login/register</title>
+    <!--my css-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!--Font link-->
     <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=PT+Serif&display=swap" rel="stylesheet">
 </head>
 
 <body>
+<!--left div with some text-->
     <div class="wrap">
         <div class="top">
             <div class="inner-top">
@@ -27,7 +29,7 @@
             </div>
         </div>
     </div>
-
+    <!--Login form-->
     <div class="container">
         <h2 id="signin">Sign In</h2>
         <p id="account">To your account</p>
@@ -44,7 +46,7 @@
             <div class="input-group">
                 <button type="submit" class="btn" name="login_user">Login</button>
             </div>
-            <p id="member">
+            <p id="member"><!--Link to signup page if user does not have an account-->
                 Not yet a member? <a href="register.php">Sign up</a>
             </p>
         </form>

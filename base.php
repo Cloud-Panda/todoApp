@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <!--My css-->
     <link rel="stylesheet" href="css/baseStyle.css">
+    <!--google font link-->
     <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=PT+Serif&display=swap" rel="stylesheet">
 </head>
 
@@ -13,7 +15,7 @@
     <div class="container box container-box">
         <h1 id="title">Todo</h1>
         <br />
-        <!--Table starts-->
+        <!--Table for users todo inputs-->
         <div>
             <br />
             <div>
