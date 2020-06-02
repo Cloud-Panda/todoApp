@@ -131,3 +131,16 @@ body{
        background:rgb(153,164,155)!important;
    }
    
+   
+  /*********MEDIA QUERIES FOR THE TODO APP*****************************/
+  @media screen and (max-width:500px){
+    .add-btn{
+      margin-left:30%;
+    }
+    .dataTables_info{
+      margin:0;
+    }
+    label{
+        margin-bottom:20px;
+    }
+  }

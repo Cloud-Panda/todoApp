@@ -192,6 +192,9 @@ html{
     .btn{
       margin-left:35%;
     }
+    .content{
+      width:100%;
+    }
 
   }
   @media screen and (max-width:780px){
@@ -230,3 +233,8 @@ html{
    }
   }
   
+  @media screen and (min-width:120px){
+    .content{
+      width:100%;
+    }
+  }
