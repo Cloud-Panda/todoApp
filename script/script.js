@@ -42,14 +42,18 @@
   
   /*Add function*/
   $('#add').click(function(){
+   /* this is where text is put into the table*/
    var html = '<tr>';
-   html += '<td contenteditable id="data1"></td>';
-   html += '<td contenteditable id="data2"></td>';
+   html += '<td contenteditable style="color: #888" id="data1"><i>Add title here</i></td>';
+   html += '<td contenteditable style="color: #888" id="data2"><i>Add Task here</i></td>';
    html += '<td><button type="button" name="insert" id="insert" class="btn btn-success btn-xs">Insert</button></td>';
    html += '</tr>';
    $('#user_data tbody').prepend(html);
-  });
-  
+   $('#data1').click(function(){$("#data1").html("");});
+   $('#data2').click(function(){$("#data2").html("");});
+});
+
+
   
  /*insert fucntion*/
  $(document).on('click', '#insert', function(){
